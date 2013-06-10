@@ -19,14 +19,14 @@ public class JuegaWebdriver4Test {
   public void setUp() throws Exception {
     driver = new FirefoxDriver();
     baseUrl = "https://www.juega.es/";
-    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+    driver.manage().timeouts().implicitlyWait(600, TimeUnit.SECONDS);
   }
 
   @Test
   public void testJuegaWebdriver4Test() throws Exception {
     driver.get(baseUrl + "/");
     driver.findElement(By.linkText("Bingo")).click();
-    driver.findElement(By.linkText("Registrar una cuenta")).click();
+    driver.findElement(By.xpath("//html/body/header/hgroup/div/div[2]/div/a")).click();
     driver.findElement(By.cssSelector("body.bingo")).click();
     driver.findElement(By.id("first_name")).clear();
     driver.findElement(By.id("first_name")).sendKeys("petras");
@@ -35,7 +35,7 @@ public class JuegaWebdriver4Test {
     driver.findElement(By.id("submit-first-page")).click();
     // Warning: verifyTextPresent may require manual changes
     try {
-    	 assertTrue(driver.findElement(By.cssSelector("BODY")).getText().matches("Este campo es obligatorio"));
+    	assertTrue(driver.findElement(By.cssSelector("BODY")).getText().matches("^[\\s\\S]*Este campo es obligatorio[\\s\\S]*$"));
     } catch (Error e) {
       verificationErrors.append(e.toString());
     }
