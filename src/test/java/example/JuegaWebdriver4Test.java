@@ -6,6 +6,7 @@ import org.junit.*;
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
@@ -17,7 +18,7 @@ public class JuegaWebdriver4Test {
 
   @Before
   public void setUp() throws Exception {
-    driver = new FirefoxDriver();
+    driver = new ChromeDriver();
     baseUrl = "https://www.juega.es/";
     driver.manage().timeouts().implicitlyWait(600, TimeUnit.SECONDS);
   }

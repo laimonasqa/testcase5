@@ -4,7 +4,10 @@ import java.util.concurrent.TimeUnit;
 import org.junit.*;
 import static org.junit.Assert.*;
 import org.openqa.selenium.*;
+import org.openqa.selenium.android.AndroidDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class GmailTestWorkingFineTest {
   private WebDriver driver;
@@ -31,6 +34,7 @@ public class GmailTestWorkingFineTest {
     // ERROR: Caught exception [ERROR: Unsupported command [getEval |  | ]]
     // ERROR: Caught exception [ERROR: Unsupported command [captureEntirePageScreenshot | c:\Temp\xxx_${timestamp}.jpg | ]]
     System.out.println("Works perfectly!!");
+
   }
 
   @After
