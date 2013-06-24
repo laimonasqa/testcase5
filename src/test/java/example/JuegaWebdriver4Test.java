@@ -26,9 +26,9 @@ public class JuegaWebdriver4Test {
 	driver.get(baseUrl + "/");
     driver.findElement(By.linkText("Casino")).click();
     System.out.println("Page title is: " + driver.getTitle());
-    driver.findElement(By.xpath("//html/body/header/hgroup/div/div[2]/div/a")).click();
+   // driver.findElement(By.cssSelector("html.no-js body.bingo header#header.col-full hgroup div.hgroup-top div.header-right div.form-wrapper a.signup")).click();
+    driver.findElement(By.xpath("//HTML/BODY/HEADER/HGROUP/DIV/DIV[2]/DIV/A")).click();
     System.out.println("Page title is: " + driver.getTitle());
-    driver.findElement(By.cssSelector("body.bingo")).click();
     driver.findElement(By.id("first_name")).clear();
     driver.findElement(By.id("first_name")).sendKeys("petras");
     driver.findElement(By.id("last_name")).clear();
