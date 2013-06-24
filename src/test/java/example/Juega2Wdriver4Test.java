@@ -6,16 +6,15 @@ import static org.junit.Assert.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
 
-public class JuegaWebdriver4Test {
+public class Juega2Wdriver4Test {
   private WebDriver driver;
   private String baseUrl;
   private StringBuffer verificationErrors = new StringBuffer();
 
   @Before
   public void setUp() throws Exception {
-    driver = new InternetExplorerDriver();
+    driver = new FirefoxDriver();
     baseUrl = "https://www.juega.es/";
     driver.manage().timeouts().implicitlyWait(600, TimeUnit.SECONDS);
   }
@@ -24,7 +23,7 @@ public class JuegaWebdriver4Test {
   public void testJuegaWebdriver4Test() throws Exception {
 	System.out.println("Starting test execution!!");
 	driver.get(baseUrl + "/");
-    driver.findElement(By.linkText("Casino")).click();
+    driver.findElement(By.linkText("Bingo")).click();
     System.out.println("Page title is: " + driver.getTitle());
     driver.findElement(By.xpath("//html/body/header/hgroup/div/div[2]/div/a")).click();
     System.out.println("Page title is: " + driver.getTitle());
