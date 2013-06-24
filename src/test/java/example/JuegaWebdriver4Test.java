@@ -8,6 +8,7 @@ import static org.hamcrest.CoreMatchers.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class JuegaWebdriver4Test {
@@ -25,7 +26,8 @@ public class JuegaWebdriver4Test {
 
   @Test
   public void testJuegaWebdriver4Test() throws Exception {
-    driver.get(baseUrl + "/");
+	System.out.println("Starting test execution!!");
+	driver.get(baseUrl + "/");
     driver.findElement(By.linkText("Bingo")).click();
     driver.findElement(By.xpath("//html/body/header/hgroup/div/div[2]/div/a")).click();
     driver.findElement(By.cssSelector("body.bingo")).click();
@@ -40,6 +42,7 @@ public class JuegaWebdriver4Test {
     } catch (Error e) {
       verificationErrors.append(e.toString());
     }
+    System.out.println("Works perfectly!!");
   }
 
   @After

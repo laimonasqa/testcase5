@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="30.681" errors="0" skipped="0" tests="1" name="example.JuegaWebdriver4Test">
+<testsuite failures="0" time="31.616" errors="0" skipped="0" tests="1" name="example.JuegaWebdriver4Test">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0\jre\bin"/>
@@ -25,9 +25,9 @@
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows Vista"/>
-    <property name="classworlds.conf" value="C:\workspace\.metadata\.plugins\org.eclipse.m2e.core\launches\m2conf1582214909271314086.tmp"/>
+    <property name="classworlds.conf" value="C:\workspace\.metadata\.plugins\org.eclipse.m2e.core\launches\m2conf8024218697880631559.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre7/bin/client;C:/Program Files (x86)/Java/jre7/bin;C:/Program Files (x86)/Java/jre7/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\apache-ant-1.8.4\bin\;C:\Java\jdk1.7.0_03\bin\;C:\apache-maven-3.0.4\bin;C:\Git\bin;C:\Chromedriver;C:\eclipse;"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre7/bin/client;C:/Program Files (x86)/Java/jre7/bin;C:/Program Files (x86)/Java/jre7/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\apache-ant-1.8.4\bin\;C:\Java\jdk1.7.0_03\bin\;C:\apache-maven-3.0.4\bin;C:\Users\user\AppData\Local\GitHub\PortableGit_ca477551eeb4aea0e4ae9fcd3358bd96720bb5c8\bin;C:\Chromedriver;C:\eclipse;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="50.0"/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
@@ -58,5 +58,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase time="30.681" classname="example.JuegaWebdriver4Test" name="testJuegaWebdriver4Test"/>
+  <testcase time="31.615" classname="example.JuegaWebdriver4Test" name="testJuegaWebdriver4Test"/>
 </testsuite>

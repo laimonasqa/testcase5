@@ -23,7 +23,8 @@ public class GmailTestWorkingFineTest {
 
   @Test
   public void testGmail() throws Exception {
-    driver.get(baseUrl + "/");
+	System.out.println("Starting test execution!!");
+	driver.get(baseUrl + "/");
     driver.findElement(By.id("Email")).clear();
     driver.findElement(By.id("Email")).sendKeys("as@as.com");
     driver.findElement(By.id("Passwd")).clear();
