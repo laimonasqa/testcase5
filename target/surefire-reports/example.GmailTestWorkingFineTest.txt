@@ -1,25 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: example.GmailTestWorkingFineTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 48.587 sec <<< FAILURE!
-testGmail(example.GmailTestWorkingFineTest)  Time elapsed: 48.534 sec  <<< ERROR!
-org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
-*** LOG addons.xpi: startup
-*** LOG addons.xpi: Skipping unavailable install location app-system-local
-*** LOG addons.xpi: Skipping unavailable install location app-system-share
-*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: C:\Users\user\AppData\Local\Temp\anonymous38354webdriver-profile\extensions\webdriver-staging
-*** LOG addons.xpi: checkForChanges
-*** LOG addons.xpi: No changes found
-
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 45.4 sec <<< FAILURE!
+testGmail(example.GmailTestWorkingFineTest)  Time elapsed: 45.353 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: Unable to bind to locking port 7054 within 45000 ms
 Build info: version: '2.9.0', revision: '14289', time: '2011-10-20 23:22:17'
 System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
 Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:107)
+	at org.openqa.selenium.internal.SocketLock.lock(SocketLock.java:95)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:69)
 	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:149)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:75)
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:79)
-	at example.GmailTestWorkingFineTest.setUp(GmailTestWorkingFineTest.java:19)
+	at example.GmailTestWorkingFineTest.setUp(GmailTestWorkingFineTest.java:16)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -50,19 +44,9 @@ Driver info: driver.version: FirefoxDriver
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-*** LOG addons.xpi: startup
-*** LOG addons.xpi: Skipping unavailable install location app-system-local
-*** LOG addons.xpi: Skipping unavailable install location app-system-share
-*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: C:\Users\user\AppData\Local\Temp\anonymous38354webdriver-profile\extensions\webdriver-staging
-*** LOG addons.xpi: checkForChanges
-*** LOG addons.xpi: No changes found
-
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:95)
-	... 35 more
-testGmail(example.GmailTestWorkingFineTest)  Time elapsed: 48.544 sec  <<< ERROR!
+testGmail(example.GmailTestWorkingFineTest)  Time elapsed: 45.355 sec  <<< ERROR!
 java.lang.NullPointerException
-	at example.GmailTestWorkingFineTest.tearDown(GmailTestWorkingFineTest.java:43)
+	at example.GmailTestWorkingFineTest.tearDown(GmailTestWorkingFineTest.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
