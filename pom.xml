@@ -9,7 +9,7 @@
 			<dependency>
 				<groupId>org.seleniumhq.selenium</groupId>
 				<artifactId>selenium-java</artifactId>
-				<version>2.9.0</version>
+				<version>2.33.0</version>
 			</dependency>
 	
 			<dependency>
@@ -32,7 +32,6 @@
 	 </build>
 
 	<properties>
-		<suiteFile>src/test/java/example/testing.xml</suiteFile>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	

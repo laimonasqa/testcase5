@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="45.398" errors="2" skipped="0" tests="2" name="example.GmailTestWorkingFineTest">
+<testsuite failures="0" time="48.079" errors="2" skipped="0" tests="2" name="example.GmailTestWorkingFineTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0\jre\bin"/>
@@ -25,7 +25,7 @@
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows Vista"/>
-    <property name="classworlds.conf" value="C:\workspace\.metadata\.plugins\org.eclipse.m2e.core\launches\m2conf6502225696711216450.tmp"/>
+    <property name="classworlds.conf" value="C:\workspace\.metadata\.plugins\org.eclipse.m2e.core\launches\m2conf8348611410568436226.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre7/bin/client;C:/Program Files (x86)/Java/jre7/bin;C:/Program Files (x86)/Java/jre7/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\apache-ant-1.8.4\bin\;C:\Java\jdk1.7.0_03\bin\;C:\apache-maven-3.0.4\bin;C:\Users\user\AppData\Local\GitHub\PortableGit_ca477551eeb4aea0e4ae9fcd3358bd96720bb5c8\bin;C:\Chromedriver;C:\eclipse;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -58,20 +58,22 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase time="45.353" classname="example.GmailTestWorkingFineTest" name="testGmail">
+  <testcase time="48.032" classname="example.GmailTestWorkingFineTest" name="testGmail">
     <error message="Unable to bind to locking port 7054 within 45000 ms
-Build info: version: &apos;2.9.0&apos;, revision: &apos;14289&apos;, time: &apos;2011-10-20 23:22:17&apos;
+Build info: version: &apos;2.33.0&apos;, revision: &apos;4ecaf82108b2a6cc6f006aae81961236eba93358&apos;, time: &apos;2013-05-22 12:00:17&apos;
 System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
 Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Unable to bind to locking port 7054 within 45000 ms
-Build info: version: &apos;2.9.0&apos;, revision: &apos;14289&apos;, time: &apos;2011-10-20 23:22:17&apos;
+Build info: version: &apos;2.33.0&apos;, revision: &apos;4ecaf82108b2a6cc6f006aae81961236eba93358&apos;, time: &apos;2013-05-22 12:00:17&apos;
 System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0&apos;
 Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.internal.SocketLock.lock(SocketLock.java:95)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:69)
-	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:149)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:75)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:128)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:79)
+	at org.openqa.selenium.internal.SocketLock.lock(SocketLock.java:98)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:72)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:110)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:188)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:183)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:179)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:92)
 	at example.GmailTestWorkingFineTest.setUp(GmailTestWorkingFineTest.java:16)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -105,7 +107,7 @@ Driver info: driver.version: FirefoxDriver
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
 </error>
   </testcase>
-  <testcase time="45.355" classname="example.GmailTestWorkingFineTest" name="testGmail">
+  <testcase time="48.034" classname="example.GmailTestWorkingFineTest" name="testGmail">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at example.GmailTestWorkingFineTest.tearDown(GmailTestWorkingFineTest.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
