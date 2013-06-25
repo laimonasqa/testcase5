@@ -41,7 +41,7 @@ public class GmailTestWorkingFineTest {
     	}
     Thread.sleep(2000);
     File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-    FileUtils.copyFile(scrFile, new File("./target/screenshots/image_" + (new Date().getTime()) + ".png"));
+    FileUtils.copyFile(scrFile, new File("./target/screenshots/image_1.png"));
     Thread.sleep(2000);
     System.out.println("Works perfectly!!");
 
