@@ -1,6 +1,10 @@
 package example;
 
+import java.io.File;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
+
+import org.apache.commons.io.FileUtils;
 import org.junit.*;
 import static org.junit.Assert.*;
 import org.openqa.selenium.*;
@@ -40,6 +44,8 @@ public class JuegaWebdriver4Test {
     } catch (Error e) {
       verificationErrors.append(e.toString());
     }
+    File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+    FileUtils.copyFile(scrFile, new File("./target/screenshots/image_" + (new Date().getTime()) + ".png"));
     System.out.println("Works perfectly!!");
   }
 

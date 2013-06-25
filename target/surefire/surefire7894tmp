@@ -1,5 +1,5 @@
 #surefire
-#Mon Jun 24 15:15:18 CEST 2013
+#Tue Jun 25 16:08:32 CEST 2013
 enableAssertions=true
 testSuiteDefinitionTestSourceDirectory=C\:\\Users\\user\\Documents\\GitHub\\testcase5\\src\\test\\java
 classPathUrl.39=C\:\\Users\\user\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-api\\2.33.0\\selenium-api-2.33.0.jar
