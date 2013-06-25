@@ -34,9 +34,12 @@ public class GmailTestWorkingFineTest {
     driver.findElement(By.id("Passwd")).sendKeys("aaaaaa");
     driver.findElement(By.id("signIn")).click();
     // Warning: assertTextPresent may require manual changes
+    try {
     assertTrue(driver.findElement(By.cssSelector("BODY")).getText().matches("^[\\s\\S]*The username or password you entered is incorrect\\. [\\s\\S]*$"));
-    // ERROR: Caught exception [ERROR: Unsupported command [getEval |  | ]]
-    // ERROR: Caught exception [ERROR: Unsupported command [captureEntirePageScreenshot | c:\Temp\xxx_${timestamp}.jpg | ]]
+      	}
+    catch (Error e) {
+        verificationErrors.append(e.toString());
+      }
     File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
     FileUtils.copyFile(scrFile, new File("./target/screenshots/image_" + (new Date().getTime()) + ".png"));
     System.out.println("Works perfectly!!");
