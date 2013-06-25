@@ -44,8 +44,10 @@ public class JuegaWebdriver4Test {
     } catch (Error e) {
       verificationErrors.append(e.toString());
     }
+    Thread.sleep(2000);
     File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
     FileUtils.copyFile(scrFile, new File("./target/screenshots/image_" + (new Date().getTime()) + ".png"));
+    Thread.sleep(2000);
     System.out.println("Works perfectly!!");
   }
 

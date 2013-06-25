@@ -33,15 +33,16 @@ public class GmailTestWorkingFineTest {
     driver.findElement(By.id("Passwd")).clear();
     driver.findElement(By.id("Passwd")).sendKeys("aaaaaa");
     driver.findElement(By.id("signIn")).click();
-    // Warning: assertTextPresent may require manual changes
     try {
-    assertTrue(driver.findElement(By.cssSelector("BODY")).getText().matches("^[\\s\\S]*The username or password you entered is incorrect\\. [\\s\\S]*$"));
+    	assertTrue(driver.findElement(By.cssSelector("BODY")).getText().matches("^[\\s\\S]*The username or password you entered is incorrect\\. [\\s\\S]*$"));
       	}
     catch (Error e) {
         verificationErrors.append(e.toString());
-      }
+    	}
+    Thread.sleep(2000);
     File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
     FileUtils.copyFile(scrFile, new File("./target/screenshots/image_" + (new Date().getTime()) + ".png"));
+    Thread.sleep(2000);
     System.out.println("Works perfectly!!");
 
   }
