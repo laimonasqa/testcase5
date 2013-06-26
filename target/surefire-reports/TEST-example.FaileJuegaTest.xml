@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="1" time="20.975" errors="0" skipped="0" tests="1" name="example.FaileJuegaTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0\jre\bin"/>
+    <property name="java.vm.version" value="1.6.0-b105"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\user\Documents\GitHub\testcase5"/>
+    <property name="java.runtime.version" value="1.6.0-b105"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.6.0\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows Vista"/>
+    <property name="classworlds.conf" value="C:\workspace\.metadata\.plugins\org.eclipse.m2e.core\launches\m2conf8979839350674037468.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre7/bin/client;C:/Program Files (x86)/Java/jre7/bin;C:/Program Files (x86)/Java/jre7/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\apache-ant-1.8.4\bin\;C:\Java\jdk1.7.0_03\bin\;C:\apache-maven-3.0.4\bin;C:\Users\user\AppData\Local\GitHub\PortableGit_ca477551eeb4aea0e4ae9fcd3358bd96720bb5c8\bin;C:\jenkins\drivers;C:\eclipse;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="user"/>
+    <property name="java.class.path" value="/C:/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.1.0.20120529-1956/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.6.0\jre"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.6.0"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.6.0\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.6.0\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.6.0\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.6.0\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.6.0\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.6.0\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.6.0\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.6.0\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="C:\Users\user\Documents\GitHub\testcase5\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="20.937" classname="example.FaileJuegaTest" name="testGmail">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError: java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:93)
+	at example.FaileJuegaTest.tearDown(FaileJuegaTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:37)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</failure>
+    <system-out>Starting test execution!!
+Page title is: Gmail: Email from Google
+Works perfectly!!
+</system-out>
+    <system-err>[0.815][INFO]: received WebDriver request: GET /status 
+[0.815][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: {
+      &quot;build&quot;: {
+         &quot;version&quot;: &quot;alpha&quot;
+      },
+      &quot;os&quot;: {
+         &quot;arch&quot;: &quot;x86_64&quot;,
+         &quot;name&quot;: &quot;Windows NT&quot;,
+         &quot;version&quot;: &quot;6.1 SP1&quot;
+      }
+   }
+}
+[0.950][INFO]: received WebDriver request: POST /session {
+   &quot;desiredCapabilities&quot;: {
+      &quot;browserName&quot;: &quot;chrome&quot;,
+      &quot;chrome.switches&quot;: [  ],
+      &quot;chromeOptions&quot;: {
+         &quot;args&quot;: [  ],
+         &quot;extensions&quot;: [  ]
+      },
+      &quot;platform&quot;: &quot;ANY&quot;,
+      &quot;version&quot;: &quot;&quot;
+   }
+}
+[0.958][INFO]: Launching chrome: &quot;C:\Users\user\AppData\Local\Google\Chrome\Application\chrome.exe&quot; --remote-debugging-port=57632 --no-first-run --enable-logging --logging-level=1 --user-data-dir=&quot;C:\Users\user\AppData\Local\Temp\scoped_dir5340_4375&quot; --load-extension=&quot;C:\Users\user\AppData\Local\Temp\scoped_dir5340_10287\internal&quot; --ignore-certificate-errors data:text/html;charset=utf-8,
+[11.475][INFO]: sending WebDriver response: 303 
+[11.483][INFO]: received WebDriver request: GET /session/71c7177cffb41d61e5b195903422971b 
+[11.483][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;71c7177cffb41d61e5b195903422971b&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: {
+      &quot;acceptSslCerts&quot;: true,
+      &quot;applicationCacheEnabled&quot;: false,
+      &quot;browserConnectionEnabled&quot;: false,
+      &quot;browserName&quot;: &quot;chrome&quot;,
+      &quot;chrome&quot;: {
+         &quot;chromedriverVersion&quot;: &quot;2.0&quot;
+      },
+      &quot;cssSelectorsEnabled&quot;: true,
+      &quot;databaseEnabled&quot;: true,
+      &quot;handlesAlerts&quot;: true,
+      &quot;javascriptEnabled&quot;: true,
+      &quot;locationContextEnabled&quot;: true,
+      &quot;nativeEvents&quot;: true,
+      &quot;platform&quot;: &quot;Windows NT&quot;,
+      &quot;rotatable&quot;: false,
+      &quot;takesScreenshot&quot;: true,
+      &quot;version&quot;: &quot;27.0.1453.116&quot;,
+      &quot;webStorageEnabled&quot;: true
+   }
+}
+[11.507][INFO]: received WebDriver request: POST /session/71c7177cffb41d61e5b195903422971b/timeouts/implicit_wait {
+   &quot;ms&quot;: 30000
+}
+[11.507][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;71c7177cffb41d61e5b195903422971b&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: null
+}
+[11.511][INFO]: received WebDriver request: POST /session/71c7177cffb41d61e5b195903422971b/url {
+   &quot;url&quot;: &quot;http://gmail.com/&quot;
+}
+[11.515][INFO]: waiting for pending navigations...
+[11.534][INFO]: done waiting for pending navigations
+[11.596][INFO]: waiting for pending navigations...
+[13.960][INFO]: done waiting for pending navigations
+[13.960][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;71c7177cffb41d61e5b195903422971b&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: null
+}
+[13.981][INFO]: received WebDriver request: GET /session/71c7177cffb41d61e5b195903422971b/title 
+[13.986][INFO]: waiting for pending navigations...
+[13.986][INFO]: done waiting for pending navigations
+[14.596][INFO]: waiting for pending navigations...
+[14.596][INFO]: done waiting for pending navigations
+[14.597][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;71c7177cffb41d61e5b195903422971b&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: &quot;Gmail: Email from Google&quot;
+}
+[14.605][INFO]: received WebDriver request: POST /session/71c7177cffb41d61e5b195903422971b/element {
+   &quot;using&quot;: &quot;id&quot;,
+   &quot;value&quot;: &quot;Email&quot;
+}
+[14.609][INFO]: waiting for pending navigations...
+[14.609][INFO]: done waiting for pending navigations
+[14.639][INFO]: waiting for pending navigations...
+[14.640][INFO]: done waiting for pending navigations
+[14.640][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;71c7177cffb41d61e5b195903422971b&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: {
+      &quot;ELEMENT&quot;: &quot;0.4093683131504804:1&quot;
+   }
+}
+[14.652][INFO]: received WebDriver request: POST /session/71c7177cffb41d61e5b195903422971b/element/0.4093683131504804:1/clear {
+   &quot;id&quot;: &quot;0.4093683131504804:1&quot;
+}
+[14.656][INFO]: waiting for pending navigations...
+[14.656][INFO]: done waiting for pending navigations
+[14.691][INFO]: waiting for pending navigations...
+[14.691][INFO]: done waiting for pending navigations
+[14.691][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;71c7177cffb41d61e5b195903422971b&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: null
+}
+[14.697][INFO]: received WebDriver request: POST /session/71c7177cffb41d61e5b195903422971b/element {
+   &quot;using&quot;: &quot;id&quot;,
+   &quot;value&quot;: &quot;Email&quot;
+}
+[14.698][INFO]: waiting for pending navigations...
+[14.698][INFO]: done waiting for pending navigations
+[14.711][INFO]: waiting for pending navigations...
+[14.711][INFO]: done waiting for pending navigations
+[14.711][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;71c7177cffb41d61e5b195903422971b&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: {
+      &quot;ELEMENT&quot;: &quot;0.4093683131504804:1&quot;
+   }
+}
+[14.714][INFO]: received WebDriver request: POST /session/71c7177cffb41d61e5b195903422971b/element/0.4093683131504804:1/value {
+   &quot;id&quot;: &quot;0.4093683131504804:1&quot;,
+   &quot;value&quot;: [ &quot;as@as.com&quot; ]
+}
+[14.717][INFO]: waiting for pending navigations...
+[14.717][INFO]: done waiting for pending navigations
+[14.873][INFO]: waiting for pending navigations...
+[14.873][INFO]: done waiting for pending navigations
+[14.874][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;71c7177cffb41d61e5b195903422971b&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: null
+}
+[14.876][INFO]: received WebDriver request: POST /session/71c7177cffb41d61e5b195903422971b/element {
+   &quot;using&quot;: &quot;id&quot;,
+   &quot;value&quot;: &quot;Passwd&quot;
+}
+[14.878][INFO]: waiting for pending navigations...
+[14.878][INFO]: done waiting for pending navigations
+[14.909][INFO]: waiting for pending navigations...
+[14.909][INFO]: done waiting for pending navigations
+[14.910][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;71c7177cffb41d61e5b195903422971b&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: {
+      &quot;ELEMENT&quot;: &quot;0.4093683131504804:2&quot;
+   }
+}
+[14.913][INFO]: received WebDriver request: POST /session/71c7177cffb41d61e5b195903422971b/element/0.4093683131504804:2/clear {
+   &quot;id&quot;: &quot;0.4093683131504804:2&quot;
+}
+[14.913][INFO]: waiting for pending navigations...
+[14.914][INFO]: done waiting for pending navigations
+[14.951][INFO]: waiting for pending navigations...
+[14.951][INFO]: done waiting for pending navigations
+[14.951][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;71c7177cffb41d61e5b195903422971b&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: null
+}
+[14.957][INFO]: received WebDriver request: POST /session/71c7177cffb41d61e5b195903422971b/element {
+   &quot;using&quot;: &quot;id&quot;,
+   &quot;value&quot;: &quot;Passwd&quot;
+}
+[14.958][INFO]: waiting for pending navigations...
+[14.958][INFO]: done waiting for pending navigations
+[14.971][INFO]: waiting for pending navigations...
+[14.971][INFO]: done waiting for pending navigations
+[14.971][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;71c7177cffb41d61e5b195903422971b&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: {
+      &quot;ELEMENT&quot;: &quot;0.4093683131504804:2&quot;
+   }
+}
+[14.975][INFO]: received WebDriver request: POST /session/71c7177cffb41d61e5b195903422971b/element/0.4093683131504804:2/value {
+   &quot;id&quot;: &quot;0.4093683131504804:2&quot;,
+   &quot;value&quot;: [ &quot;aaaaaa&quot; ]
+}
+[14.975][INFO]: waiting for pending navigations...
+[14.975][INFO]: done waiting for pending navigations
+[15.087][INFO]: waiting for pending navigations...
+[15.087][INFO]: done waiting for pending navigations
+[15.087][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;71c7177cffb41d61e5b195903422971b&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: null
+}
+[15.090][INFO]: received WebDriver request: POST /session/71c7177cffb41d61e5b195903422971b/element {
+   &quot;using&quot;: &quot;id&quot;,
+   &quot;value&quot;: &quot;signIn&quot;
+}
+[15.091][INFO]: waiting for pending navigations...
+[15.091][INFO]: done waiting for pending navigations
+[15.120][INFO]: waiting for pending navigations...
+[15.120][INFO]: done waiting for pending navigations
+[15.121][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;71c7177cffb41d61e5b195903422971b&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: {
+      &quot;ELEMENT&quot;: &quot;0.4093683131504804:3&quot;
+   }
+}
+[15.124][INFO]: received WebDriver request: POST /session/71c7177cffb41d61e5b195903422971b/element/0.4093683131504804:3/click {
+   &quot;id&quot;: &quot;0.4093683131504804:3&quot;
+}
+[15.124][INFO]: waiting for pending navigations...
+[15.124][INFO]: done waiting for pending navigations
+[15.191][INFO]: waiting for pending navigations...
+[15.824][INFO]: done waiting for pending navigations
+[15.825][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;71c7177cffb41d61e5b195903422971b&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: null
+}
+[15.827][INFO]: received WebDriver request: POST /session/71c7177cffb41d61e5b195903422971b/element {
+   &quot;using&quot;: &quot;css selector&quot;,
+   &quot;value&quot;: &quot;BODY&quot;
+}
+[15.828][INFO]: waiting for pending navigations...
+[15.828][INFO]: done waiting for pending navigations
+[15.856][INFO]: waiting for pending navigations...
+[15.856][INFO]: done waiting for pending navigations
+[15.857][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;71c7177cffb41d61e5b195903422971b&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: {
+      &quot;ELEMENT&quot;: &quot;0.6013937664683908:1&quot;
+   }
+}
+[15.861][INFO]: received WebDriver request: GET /session/71c7177cffb41d61e5b195903422971b/element/0.6013937664683908:1/text 
+[15.861][INFO]: waiting for pending navigations...
+[15.861][INFO]: done waiting for pending navigations
+[16.007][INFO]: waiting for pending navigations...
+[16.007][INFO]: done waiting for pending navigations
+[16.007][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;71c7177cffb41d61e5b195903422971b&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: &quot;New to Gmail? CREATE AN ACCOUNT\nSign in\nUsername\nPassword\nThe username or password you entered is incorrect. ?\nStay signed in\nCan&apos;t access your account?\nGmail\nExperience the ease and simplicity of ...&quot;
+}
+[16.019][INFO]: received WebDriver request: GET /session/71c7177cffb41d61e5b195903422971b/screenshot 
+[16.019][INFO]: waiting for pending navigations...
+[16.019][INFO]: done waiting for pending navigations
+[16.224][INFO]: waiting for pending navigations...
+[16.224][INFO]: done waiting for pending navigations
+[16.236][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;71c7177cffb41d61e5b195903422971b&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: &quot;iVBORw0KGgoAAAANSUhEUgAABBAAAANyCAIAAABUnK94AAAgAElEQVR4nOzdeZycR30n/m/Vc/U994xGlmRbtmRJlg3yAT6wjWUMJjEksIAhG9h1CGEh52ZDCJtkSfILySYhx254LWyyCYEQgkMCCWDHp4SRLfmWbEk+dI9Gmkvqmem7+zmqfn/U8zz9qKd7NCONN...&quot;
+}
+[18.281][INFO]: received WebDriver request: DELETE /session/71c7177cffb41d61e5b195903422971b 
+[19.383][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;71c7177cffb41d61e5b195903422971b&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: null
+}
+[19.388][INFO]: received WebDriver request: GET /shutdown 
+[19.388][INFO]: sending WebDriver response: 200 {
+   &quot;sessionId&quot;: &quot;&quot;,
+   &quot;status&quot;: 0,
+   &quot;value&quot;: null
+}
+Started ChromeDriver (v2.0) on port 10882
+</system-err>
+  </testcase>
+</testsuite>
