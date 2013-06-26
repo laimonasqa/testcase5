@@ -41,6 +41,7 @@ public class Juega2Wdriver4Test {
     	assertTrue(driver.findElement(By.cssSelector("BODY")).getText().matches("^[\\s\\S]*Este campo es obligatorio[\\s\\S]*$"));
     } catch (Error e) {
       verificationErrors.append(e.toString());
+      System.out.println("Something went wrong!!");
     }
     Thread.sleep(2000);
     File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
