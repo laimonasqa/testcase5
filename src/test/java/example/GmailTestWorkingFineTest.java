@@ -27,8 +27,6 @@ public class GmailTestWorkingFineTest {
   public void testGmail() throws Exception {
 	System.out.println("Starting test execution!!");
 	driver.get(baseUrl + "/");
-    File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-    FileUtils.copyFile(scrFile, new File("./target/screenshots/image_1.png"));
 	System.out.println("Page title is: " + driver.getTitle());
     driver.findElement(By.id("Email")).clear();
     driver.findElement(By.id("Email")).sendKeys("as@as.com");
@@ -42,7 +40,7 @@ public class GmailTestWorkingFineTest {
         verificationErrors.append(e.toString());
     	}
     File scrFile1 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-    FileUtils.copyFile(scrFile1, new File("./target/screenshots/image_2.png"));
+    FileUtils.copyFile(scrFile1, new File("./target/screenshots/image_" + (new Date().getTime()) + ".png"));
     Thread.sleep(2000);
     System.out.println("Works perfectly!!");
 
