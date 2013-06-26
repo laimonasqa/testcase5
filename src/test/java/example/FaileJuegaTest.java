@@ -38,7 +38,7 @@ public class FaileJuegaTest {
       	}
     catch (Error e) {
         verificationErrors.append(e.toString());
-        System.out.println("Something went wrong!!");
+        System.out.println("Something went wrong!!!");
     	}
     File scrFile1 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
     FileUtils.copyFile(scrFile1, new File("./target/screenshots/image_" + (new Date().getTime()) + ".png"));
