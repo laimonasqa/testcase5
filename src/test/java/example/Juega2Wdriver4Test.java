@@ -27,7 +27,7 @@ public class Juega2Wdriver4Test {
   public void testJuegaWebdriver4Test() throws Exception {
 	System.out.println("Starting test execution!!");
 	driver.get(baseUrl + "/");
-    driver.findElement(By.linkText("Bingo")).click();
+    driver.findElement(By.linkText("bingo")).click();
     System.out.println("Page title is: " + driver.getTitle());
     driver.findElement(By.xpath("//html/body/header/hgroup/div/div[2]/div/a")).click();
     System.out.println("Page title is: " + driver.getTitle());

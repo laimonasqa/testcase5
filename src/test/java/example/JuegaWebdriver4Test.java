@@ -28,7 +28,7 @@ public class JuegaWebdriver4Test {
   public void testJuegaWebdriver4Test() throws Exception {
 	System.out.println("Starting test execution!!");
 	driver.get(baseUrl + "/");
-    driver.findElement(By.linkText("Casino")).click();
+    driver.findElement(By.linkText("casino")).click();
     System.out.println("Page title is: " + driver.getTitle());
    // driver.findElement(By.cssSelector("html.no-js body.bingo header#header.col-full hgroup div.hgroup-top div.header-right div.form-wrapper a.signup")).click();
     driver.findElement(By.xpath("//HTML/BODY/HEADER/HGROUP/DIV/DIV[2]/DIV/A")).click();
