@@ -1,0 +1,22 @@
+  <?xml version="1.0" encoding="UTF-8"?>
+  <suite name="Suite1" verbose="1"  >
+
+ <test name="samplePage Test" >
+   <classes>
+   <class name="GmailTestWorkingFineTest" >
+        <methods>
+            <include name = "SamplePageTest_Execution"/>
+        </methods>
+    </class>
+</classes>
+ </test>
+   <test name="newSamplePage Test" >
+    <classes>
+   <class name="Juega2Wdriver4Test" >
+        <methods>
+            <include name = "NewSamplePage_Execution02"/>
+        </methods>
+        </class>
+    </classes>
+   </test> 
+ </suite>

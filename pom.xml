@@ -16,19 +16,56 @@
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
 				<version>4.9</version>
-				<scope>test</scope>
+			<!--	<scope>test</scope> -->
 			</dependency>
+			
+			<dependency>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>2.15</version>
+			</dependency>
+            
 	 </dependencies>
 		 
 		 
 	 <build>
 		<plugins>
-			<plugin>
+		    
+		    <plugin>
+        		<groupId>org.codehaus.mojo</groupId>
+        		<artifactId>failsafe-maven-plugin</artifactId>
+        		<version>2.15</version>
+        		<configuration>
+        			<includes>
+            			<include>FirstTst.java</include>
+          			</includes>
+        		</configuration>    
+        		
+      		  </plugin>
+		    
+		<!--	<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>selenium-maven-plugin</artifactId>
 				<version>2.3</version>
 			</plugin>
-		</plugins>
+		
+			
+					
+			
+			<plugin>
+				<groupId>org.apache.maven.plugin</groupId>
+        		<artifactId>maven-surefire-plugin</artifactId>
+        		<version>2.15</version>
+         			 <configuration>
+          				 <suiteXmlFiles>
+               				<suiteXmlFile>/tests1.xml</suiteXmlFile>
+        				 </suiteXmlFiles>
+                 	 </configuration> 
+    		  </plugin>
+    		  
+    		  -->	
+    		  
+    	</plugins>
 	 </build>
 
 	<properties>
