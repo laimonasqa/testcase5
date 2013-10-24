@@ -19,9 +19,9 @@ public class FaileJuegaTest {
   @Before
   public void setUp() throws Exception {
     
-    DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-    capabilities.setCapability("chrome.switches", Arrays.asList("--disable-loggin"));
-    driver = new ChromeDriver(capabilities);
+   ChromeOptions options = new ChromeOptions();
+    options.addArguments("start-maximized");
+    driver = new ChromeDriver(options);
     
     baseUrl = "http://gmail.com";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
