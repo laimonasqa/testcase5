@@ -19,11 +19,7 @@ public class FaileJuegaTest {
   @Before
   public void setUp() throws Exception {
     
-    DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-    capabilities.setCapability("chrome.switches", Arrays.asList("--disable-loggin"));
- //   System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-    System.setProperty("webdriver.chrome.driver");
-    driver = new ChromeDriver(capabilities);
+    driver = new ChromeDriver();
     
     baseUrl = "http://gmail.com";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
